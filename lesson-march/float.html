@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float_2</title>
+    <style>
+        *{
+            border: 1px solid;
+            text-align: center;
+        }
+        header{
+            margin-bottom: 10px;
+        }
+        main{
+            background-color: aqua;
+            padding: 5px;
+            /* overflow: auto; */
+            /* height: 350px ; */
+            margin-bottom: 10px;
+        }
+        aside{
+            background-color: blueviolet;
+            width: 25%;
+            height: 300px;
+            float: left;
+        }
+        article{
+            background-color: brown;
+            width: 70%;
+            height: 300px;
+            float: right;
+        }
+        /* .clear{
+            clear: left;
+        } */
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <main class="clearfix">
+        <aside>Aside</aside>
+        <article>Article</article>
+        <!-- <div class="clear"></div> -->
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>
