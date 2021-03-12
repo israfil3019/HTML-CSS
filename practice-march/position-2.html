@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        .first{
+            max-width: 50%;
+            border: 10px solid black;
+            font-size:xx-large;
+            padding:30px; 
+            margin:10px auto;
+        }
+        .second{
+            box-sizing: border-box;
+            width: 50%;
+            border: solid black 10px;
+            padding: 30px;
+            font-size:xx-large;
+            margin:10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        Default Content Box Model
+    </div>
+    <div class="second">
+        Border Box Model
+    </div>
+</body>
+</html>
