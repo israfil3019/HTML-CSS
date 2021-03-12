@@ -9,25 +9,37 @@
   <style>
     .box {
       border: 1px solid blue;
-      margin-right: 20px;
-      float: left;
-    }
-    .second {
-      clear: left;
-      padding:20px 0;
+      margin: 0 20px 20px 0;
+      display: inline-block;
 
     }
     .box-2 {
       border: 1px solid red;
+      margin-bottom: 20px;
     }
     .box-3{
         border: 1px solid green;
         font-size: 18px;
-        float:left;
+        display: inline-block;
         margin-right: 10px;
         width:80px;
         height: 80px;
     }
+    .box-4{
+        font-size:18px;
+        margin:20px 0;
+    }
+    .box-4:first-child{
+        display: none;
+    }
+    .link-div{
+        background-color:dimgray;
+        max-width: 50%;
+        margin: 5% 25%;
+        font-size: 18px;
+        padding: 20px;
+    }
+
   </style>
   <body>
     <div>
@@ -44,6 +56,13 @@
         <div class="box-3">one</div>
         <div class="box-3">two</div>
         <div class="box-3">three</div>
+    </div>
+    <div>
+        <div class="box-4">I should be hidden.</div>
+        <div class="box-4">I should be showing.</div>
+    </div>
+    <div class="link-div">
+        <a href="">click me</a>
     </div>
   </body>
 </html>
