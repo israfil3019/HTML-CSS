@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+      .first div {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        font-size: 18px;
+      }
+      div:nth-child(even) {
+        position: relative;
+        left: 50px;
+      }
+      .second {
+        border: 1px solid blue;
+        margin: 70px 0;
+      }
+      #one {
+        position: absolute;
+        left: -30px;
+        bottom: 20px;
+      }
+      #two {
+        position: absolute;
+        right: -30px;
+        bottom: 20px;
+      }
+      #three {
+        position: absolute;
+        left: -30px;
+        top: 20px;
+      }
+      #four {
+        position: absolute;
+        right: -30px;
+        top: 20px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <div>one</div>
+      <div>two</div>
+      <div>three</div>
+      <div>four</div>
+      <div>five</div>
+      <div>six</div>
+    </div>
+    <div class="second">
+      <span id="one">one</span>
+      <span id="two">two</span>
+      <span id="three">three</span>
+      <span id="four">four</span>
+    </div>
+  </body>
+</html>
