@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combinators</title>
     <style>
-        div + p {
+        div ~ p{/*general sibling -chose all sibling*/
+            border:2px solid red;
+        }
+        div + p { /* adjacent selector -choose the first tag*/
             background-color: yellow;
+        }
+        div > p {/*child selector*/
+            font-size: 28px;
+        }
+        div p{/*descendant selector*/
+            color: blue;
         }
     </style>
 </head>
@@ -20,13 +29,13 @@
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </section>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p> Lorem ipsum dolor sit amet consectetur.</p>
     <p>Corrupti assumenda delectus itaque nobis earum.</p>
     <div>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Repudiandae sed magni architecto voluptates!</p>
     </div>
-    <p>Lorem ipsum dolor sit amet.</p>
+    <p> Lorem ipsum dolor sit amet.</p>
     <p>Nisi amet iusto blanditiis ex.</p>
 </body>
 </html>
