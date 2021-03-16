@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    width:100%;
+}
+.upperright a{
+    display: block;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+.upperleft a{
+    display: block;
+    float: left;
+    padding: 5px 10px;
+}
+a{
+    text-decoration: none;
+    padding-right:5px;
+}
+#logo{
+    position:relative;
+    left:14%;    
+}
+#google{
+    background-color: none;
+    border:1px solid darkgray;
+    border-radius: 20px;
+    line-height: 45px;
+    width:45%;
+    z-index:0;
+    min-width: 200px;
+    
+}
+.searcharea{
+    
+    position:absolute;
+    top:10%;
+    margin:0 26%;
+    max-width:inherit;
+    width:100%;
+}
+#glass{
+    
+    position: relative;
+    left: 30px;
+    top:5px;
+    z-index:1;
+    width:20px;
+}
+#micro{
+    position: relative;
+    right: 35px;
+    top:8px;
+    z-index:1;
+    width:20px;
+}
+.footer1{
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding: 5px 10px;
+}
+.footer2{
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding: 5px 10px;
+}
+.turkey{
+    position:absolute;
+    bottom:20px;
+    left:0;
+    padding: 5px 10px;
+}
