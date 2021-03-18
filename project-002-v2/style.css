@@ -1,9 +1,146 @@
-
-.main-searchbar--magnify{
-    height: 20px;
-    width:20px;
+html {
+  box-sizing: border-box;
 }
-.main-searcbar--microphone{
-    height: 20px;
-    width: 20px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.header-left {
+  float: left;
+  padding: 0;
+}
+.header-right {
+  float: right;
+  margin-right: 15px;
+}
+.header::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+  margin: 0 0.75em;
+  font-size: 13px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.header-right--appicon {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+.header-right--appicon:hover {
+  opacity: 1;
+}
+.header-right--button {
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.header-right--button:hover {
+  cursor: pointer;
+  box-shadow: inset 0 2px rgba(0, 0, 0, 0.15);
+}
+.main-logo {
+  width: 272px;
+  height: 92px;
+  display: block;
+  margin: 98px auto 0;
+}
+.main-searchbar {
+  width: 582px;
+  height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin: 28px auto;
+}
+
+.main-searchbar--magnify {
+  height: 22px;
+  width: 22px;
+  border: none;
+  outline: none;
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+.main-searchbar--input {
+    height: 34px;
+    width: 498px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+  }
+.main-searcbar--microphone {
+  height: 20px;
+  position:relative;
+  top:10px;
+  left:15px;
+}
+.main-button{
+    text-align: center;
+}
+.main-button button{
+    height: 36px;
+    min-width: 120px;
+    background-color: #efefef;
+    border: 1px solid #f8f8f8;
+    border-radius: 3px;
+    color:#5f6368;
+}
+.main-button button:hover{
+    color:black;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    box-shadow: 5px darkgray;
+}
+.main-language{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.main-language a{
+    text-decoration: none;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-size: 14px;
+    line-height: 40px;
+}
+.footer-country{
+    padding-left: 13px;
+    color:#5f6368;
+    border-bottom: 1px solid #e4e4e4;
+}
+.footer a{
+ color:#5f6368;
+}
+.footer-left{
+    float: left;
+    padding: 0;
+    margin:0 4px;
+}
+.footer-right{
+    float: right;
+    margin:0 15px;
 }
