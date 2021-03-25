@@ -73,4 +73,16 @@ span {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  body {
+    background-image: url(https://picsum.photos/200/300);
+    color: white;
+  }
+  span {
+    color: unset;
+  }
 
+}
