@@ -65,6 +65,7 @@ span {
 }
 .textarea {
   margin-top: 0.625rem; 
+  width:90%;
 }
 
 #submit:hover {
