@@ -1,0 +1,49 @@
+*{
+    border: 1px solid black;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    line-height: 1.8em; 
+}
+.img1{
+    background-image: url(images/2020People___Children_Smiling_baby_in_a_pink_knitted_hat_142600_.jpg);
+    min-height:700px;
+}
+.img2{
+    background-image: url(images/2272129.jpg);
+    min-height:500px;
+}
+.img3{
+    background-image: url(images/cute_sleeping_newborn_baby.jpg);
+    min-height:400px;
+}
+.section1{
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section2{
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #f4f4f4;
+    color:#666;
+}
+.section3{
+    text-align: center;
+    padding: 5% 15;
+    background-color: #f4f4f4;
+    color:#666;
+}
+.img1, .img2, .img3{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
