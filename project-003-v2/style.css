@@ -1,7 +1,5 @@
-*{
-    border: 1px solid black;
-}
-body{
+body, html{
+    height: 100%;
     margin:0;
     padding:0;
     font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
@@ -27,13 +25,13 @@ body{
 }
 .section2{
     text-align: center;
-    padding: 5% 15%;
-    background-color: #f4f4f4;
-    color:#666;
+    padding: 5% 10%;
+    background-color:rgb(255, 113, 125);
+    color:rgb(238, 227, 227);
 }
 .section3{
     text-align: center;
-    padding: 5% 15;
+    padding: 5% 10%;
     background-color: #f4f4f4;
     color:#666;
 }
@@ -46,4 +44,34 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
+}
+.img1__container--heading{
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    background-color:transparent;
+    padding: 0.25em;
+    font-size: 1.6em;
+    font-weight: 400;
+} 
+.img2__container--heading{
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    background-color:cornflowerblue;
+    padding: 0.25em;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+.img3__container--heading{
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    background-color:mediumpurple;
+    padding: 0.25em;
+    font-size: 1.6em;
+    font-weight: 400;
 }
