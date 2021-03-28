@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <title>Checkout</title>
 </head>
+
 <body>
-    
+    <form action="result.html" method="GET" name="form" target="_blank" class="form"></form>
+    <div class="contact-part">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form__email" placeholder="enter your email" required />
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" class="form__phone" placeholder="enter your phone" required />
+        </fieldset>
+    </div>
+    <div class="shipping-part">
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" class="form__name" placeholder="enter your name" required />
+            <label for="address">Address</label>
+            <input type="text" name="address" id="adress" class="form__address" placeholder="enter your address"
+                required />
+            <label for="phone">City</label>
+            <input type="text" name="city" id="city" class="form__city" placeholder="enter your city" required />
+        </fieldset>
+    </div>
+    <div class="country-part">
+        <label for="country">Country</label><br>
+        <select name="country" id="country">
+            <option value="turkey">Turkey</option>
+            <option value="usa">USA</option>
+        </select>
+        <label for="address">Post Code</label><br>
+        <input type="number" name="post-code" id="post-code" class="form__post-code" placeholder="enter your post-code"
+            required />
+    </div>
+    <div class="reminder-part"> 
+        <input type="checkbox" name="info" id="info">
+        <label for="info">See this informaiton next time</label>
+    </div>
+    <button>Send</button>
+    </form>
 </body>
+
 </html>
