@@ -1,0 +1,113 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 100px) 20px;
+    
+}
+.container div {
+   text-align: center;
+   color: rgb(70, 70, 70);
+   font-weight: 600;
+   vertical-align:top;
+}
+.content1{
+    background-color: #ddd;
+}
+.content2{
+    grid-row: 2/span 2;
+    text-align: center;
+    vertical-align: middle;
+}
+.content2 select{
+    margin-top: 10px;
+}
+.content3{
+    grid-column: 2/span 2;
+    grid-row: 1/span 2;
+}
+.content4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: rgba(255,0,0,.3);
+}
+.content5{
+    grid-column: 4/span 2;
+    grid-row: 1/span 2;
+}
+.content6{
+    grid-column: 5/6;
+    grid-row:2/3;
+    background-color: rgba(175, 206, 0, 0.5);
+
+}
+.content7{
+    grid-column: 6/span 2;
+    grid-row: 1/span 2;
+}
+.content8{
+    grid-column: 7/8;
+    grid-row: 2/3;
+    background-color: rgba(9, 65, 87, 0.3);
+}
+.content12{
+    background-color: rgba(119, 139, 1, 0.8);
+}
+.content13{
+    grid-column: 4/span 2;
+    grid-row: 3/span 2;
+}
+.content14{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    background-color: rgba(6, 23, 100, 0.3);
+}
+.content15{
+    grid-column: 6/span 2;
+    grid-row: 3/span 2;
+}
+.content16{
+    grid-column: 7/8;
+    grid-row: 4/5;
+    background-color: rgba(197, 188, 207, 0.7);
+}
+.content17{
+    grid-column: 1/2;
+    grid-row: 4/span 3;
+    background-color: #ddd;
+}
+.content18{
+    grid-column: 2/span 2;
+    grid-row: 5/span 2;
+}
+.content19{
+    grid-column: 3/4;
+    grid-row:6/7;
+    background-color: rgba(7, 66, 105, 0.5);
+}
+.content20{
+    grid-column:4/5;
+    grid-row:5/span 2;
+}
+.content21{
+    grid-column: 5/6;
+    grid-row:5/span 2;
+}
+.content22{
+    grid-column: 4/5;
+    grid-row:6/7;
+    background-color: rgba(97, 10, 82, 0.3);
+}
+.content23{
+    grid-column:5/6;
+    grid-row:6/7;
+    background-color: rgba(4, 150, 89, 0.3);
+}
+.content24{
+    grid-column: 6/span 2;
+    grid-row: 5/span 2;
+}
+.content25{
+    grid-column: 7/8;
+    grid-row: 6/7;
+    background-color: rgba(195, 0, 255, 0.5)
+}
