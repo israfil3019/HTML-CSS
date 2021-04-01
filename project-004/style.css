@@ -16,14 +16,9 @@ form{
     height: 100%;
     width: 40%;
     float: left;
-    margin-right: 10%;
+    margin-right: 2%;
     margin-left: 5%;
 }
-.right{
-    float: right;
-    width: 40%;
-}
-
 input{
     margin: 10px;
 }
@@ -38,14 +33,17 @@ legend{
     font-weight: bolder;
 }
 .continue{
-    margin-top: 20px;
+    margin: 20px 0;
     float: right;
     background-color: bisque;
     font-size: x-large;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     color:rgb(77, 72, 66);
     border: none;
+}
+.continue:hover{
+    background-color: rgb(247, 206, 156);
 }
 i{
     position: relative;
@@ -53,8 +51,11 @@ i{
 }
 .country-part{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     margin: 20px;
+}
+.post label{
+    margin-left: 10px;
 }
 .country-part input{
     margin: 10px;
@@ -65,4 +66,48 @@ i{
     margin-top: 10px;
     padding: 5px;
 }
+.right{
+    float: right;
+    width: 40%;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color:aliceblue;
+    border-radius: 5%;
 
+}
+.purchase-part1{
+    display: flex;
+    padding: 5%;;
+}
+.purchase-part2{
+    display: flex;
+    padding: 5%;
+}
+.purchase-part1--img, .purchase-part2--img{
+    width: 150px;
+    height: 180px;
+    border-radius: 7%;
+    margin-right: 5%;
+}
+h2, p, span, button{
+    margin: 5px;
+    padding: 3px;
+}
+
+.quantity1, .quantity2{
+    display: flex;
+}
+button>i{
+    position: relative;
+    right: 1px;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.shipping, .total{
+    border-top: 2px solid rgb(99, 99, 96);
+    font-weight: bold;
+    font-size: large;
+}
