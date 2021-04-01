@@ -11,83 +11,98 @@
 </head>
 
 <body>
-    <form action="result.html" method="GET" name="form" target="_blank" class="form"></form>
-    <div class="contact-part">
-        <fieldset>
-            <legend>Contact Information</legend>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="form__email" placeholder="enter your email" required />
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" class="form__phone" placeholder="enter your phone" required />
-        </fieldset>
-    </div>
-    <div class="shipping-part">
-        <fieldset>
-            <legend>Shipping Address</legend>
-            <label for="name">Full Name</label>
-            <input type="text" name="name" id="name" class="form__name" placeholder="enter your name" required />
-            <label for="address">Address</label>
-            <input type="text" name="address" id="adress" class="form__address" placeholder="enter your address"
-                required />
-            <label for="phone">City</label>
-            <input type="text" name="city" id="city" class="form__city" placeholder="enter your city" required />
-        </fieldset>
-    </div>
-    <div class="country-part">
-        <label for="country">Country</label><br>
-        <select name="country" id="country">
-            <option value="turkey">Turkey</option>
-            <option value="usa">USA</option>
-        </select>
-        <label for="address">Post Code</label><br>
-        <input type="number" name="post-code" id="post-code" class="form__post-code" placeholder="enter your post-code"
-            required />
-    </div>
-    <div class="reminder-part"> 
-        <input type="checkbox" name="info" id="info">
-        <label for="info">See this informaiton next time</label>
-    </div>
-    <button>Continue</button>
+    <form action="result.html" method="GET" name="form" target="_blank" class="form">
+        <div class="contact-part">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="email">Email</label><br>
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <input type="email" name="email" id="email" class="form__email" placeholder="enter your email"
+                    required /><br>
+                <label for="phone">Phone</label><br>
+                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                <input type="tel" name="phone" id="phone" class="form__phone" placeholder="enter your phone" required />
+            </fieldset>
+        </div>
+        <div class="shipping-part">
+            <fieldset>
+                <legend>Shipping Address</legend>
+                <label for="name">Full Name</label><br>
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <input type="text" name="name" id="name" class="form__name" placeholder="enter your name"
+                    required /><br>
+                <label for="address">Address</label><br>
+                <i class="fas fa-home" aria-hidden="true"></i>
+                <input type="text" name="address" id="adress" class="form__address" placeholder="enter your address"
+                    required /><br>
+                <label for="phone">City</label><br>
+                <i class="fa fa-map-o" aria-hidden="true"></i>
+                <input type="text" name="city" id="city" class="form__city" placeholder="enter your city" required />
+            </fieldset>
+        </div>
+        <div class="country-part">
+            <div class="country">
+                <label for="country">Country</label><br>
+                <select name="country" id="country">
+                    <option value="turkey">Turkey</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+            <div class="post">
+                <label for="address">Post Code</label>
+                <input type="number" name="post-code" id="post-code" class="form__post-code"
+                    placeholder="enter your post-code" required />
+            </div>
+        </div>
+        <div class="reminder-part">
+            <input type="checkbox" name="info" id="info">
+            <label for="info">See this informaiton next time</label>
+        </div>
+        <button class="continue">Continue</button>
     </form>
-    <div class="purchase-part1">
-        <img src="images/photo1.png" >
-        <div class="purchase-info1">
-            <h2>Vintage Backbag</h2>
-            <p>$54.99 <span style="text-decoration: line-through;">$94.99</span></p>
-            <div class="quantity2">
-                <button>
-                    <i class="fas fa-minus"></i>
-                </button>
-                <p>1</p>
-                <button>
-                    <i class="fas fa-plus"></i>
-                </button>
+    <div class="right">
+        <div class="purchase-part1">
+            <img src="images/photo1.png">
+            <div class="purchase-info1">
+                <h2>Vintage Backbag</h2>
+                <p>$54.99 <span style="text-decoration: line-through;">$94.99</span></p>
+                <div class="quantity2">
+                    <button>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <p>1</p>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="purchase-part2">
-        <img src="images/photo2.png" >
-        <div class="purchase-info2">
-            <h2>Levi Shoes</h2>
-            <p>$74.99 <span style="text-decoration: line-through;">$124.99</span></p>
-            <div class="quantity">
-                <button>
-                    <i class="fas fa-minus"></i>
-                </button>
-                <p>1</p>
-                <button>
-                    <i class="fas fa-plus"></i>
-                </button>
+        <div class="purchase-part2">
+            <img src="images/photo2.png">
+            <div class="purchase-info2">
+                <h2>Levi Shoes</h2>
+                <p>$74.99 <span style="text-decoration: line-through;">$124.99</span></p>
+                <div class="quantity">
+                    <button>
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <p>1</p>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="shipping">
-        <p>Shipping</p>
-        <p>$19</p>
-    </div>
-    <div class="total">
-        <p>Total</p>
-        <p>$148.98</p>
+        <div class="last">
+            <div class="shipping">
+                <p>Shipping</p>
+                <p>$19</p>
+            </div>
+            <div class="total">
+                <p>Total</p>
+                <p>$148.98</p>
+            </div>
+        </div>
     </div>
 </body>
 

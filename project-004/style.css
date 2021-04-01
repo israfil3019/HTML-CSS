@@ -1,10 +1,9 @@
 *{
     margin:0;
     padding:0;
-    border:1px solid black;
 }
 .shipping-part input, .contact-part input{
-    width: 100%;
+    width: 80%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -12,3 +11,58 @@
     background-color: white;
     padding: 12px 20px 12px 40px;
 }
+form{
+    
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.right{
+    float: right;
+    width: 40%;
+}
+
+input{
+    margin: 10px;
+}
+fieldset{
+    font-size:large;
+    border: 0;
+    margin-top: 20px;
+}
+legend{
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.continue{
+    margin-top: 20px;
+    float: right;
+    background-color: bisque;
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 10px;
+    color:rgb(77, 72, 66);
+    border: none;
+}
+i{
+    position: relative;
+    right:-40px;
+}
+.country-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.country-part input{
+    margin: 10px;
+    padding: 5px;
+    width: 70%;
+}
+.country-part select{
+    margin-top: 10px;
+    padding: 5px;
+}
+
