@@ -4,24 +4,26 @@ body{
     padding: 0;
     color: white;
     background: none;
+    box-sizing: border-box;
 }
 .header{
-    background-color: rgb(136, 134, 155);
+    background-color: rgb(77,76,88);
     border-bottom: 2px solid rgb(156, 20, 104);
     display: flex;
     justify-content: space-between;
     height: 4rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    box-sizing: border-box;
 
 }
 .header__h2{
-    background-color: rgb(136, 134, 155);
+    background-color: rgb(77,76,88);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header__navbar{
-    background-color: rgb(136, 134, 155);
+    background-color: rgb(77,76,88);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +55,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding:0 1rem ;
-    background-color: rgb(136, 134, 155);
+    background-color:rgb(77,76,88);
     height: 4rem;
 }
 .section__second-h3, .section__second-input{
@@ -96,8 +98,9 @@ a{
     justify-content: center;
     align-items: center;
     color: black;
-    background-color: rgb(136, 134, 155);
+    background-color: rgb(77,76,88);
     padding:1rem 0;
+    color: white;
 }
 .footer img{
     width: 10rem;
