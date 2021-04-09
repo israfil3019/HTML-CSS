@@ -5,9 +5,10 @@ body{
     color: white;
     background: none;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
-    background-color: rgb(77, 76, 88);
+    background-color: rgb(48, 48, 53);
     border-bottom: 2px solid rgb(156, 20, 104);
     display: flex;
     justify-content: space-between;
@@ -49,10 +50,9 @@ a{
     padding: .5rem 1rem;
     color: black;
     background-color:rgba(235, 222, 206, 0.5);
-
 }
 .section__first-aside{
-    background-color: rgb(77, 76, 88);
+    background-color: rgb(48, 48, 53);
     color: white;
     float: right;
     margin-top: 1rem;
@@ -64,7 +64,6 @@ a{
     line-height: 1rem;
     padding: .5rem;
     margin: .5rem;
-    
 }
 textarea{
     width: 80%;
@@ -83,7 +82,7 @@ textarea{
     display: flex;
     justify-content: space-between;
     padding:0 2rem ;
-    background-color:rgb(77, 76, 88);
+    background-color:rgb(48, 48, 53);
     height: 4rem;
 }
 .section__second-h3, .section__second-input{
@@ -93,16 +92,14 @@ textarea{
 }
 .section__second-input input{
     padding: .5rem;
-    background-color: antiquewhite;
+    background-color: white;
     color: black;
     border: none;
-    border-radius: 5%;
 }
 .section__second-input input[type="button"]{
     background-color: rgb(218, 64, 3);
     color: antiquewhite;
     border: none;
-    border-radius: 5%;
 }
 .footer{
     box-sizing: border-box;
@@ -111,7 +108,7 @@ textarea{
     justify-content: center;
     align-items: center;
     color: black;
-    background-color:rgb(77, 76, 88);
+    background-color:rgb(48, 48, 53);
     padding:1rem 0;
     color: white;
 }
