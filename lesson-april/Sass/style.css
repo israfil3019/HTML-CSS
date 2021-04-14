@@ -1,0 +1,114 @@
+body {
+  border: 0px;
+  margin: 0;
+  font-size: 10px;
+  background-color: bisque;
+  color: yellow;
+  size: 20px;
+}
+
+p {
+  background-color: aliceblue;
+  padding: 5px;
+}
+
+.border-i {
+  border: 50px;
+}
+
+.border-i {
+  border: 40px;
+}
+
+.border-i {
+  border: 30px;
+}
+
+.border-i {
+  border: 20px;
+}
+
+.border-i {
+  border: 10px;
+}
+
+.item-1 {
+  height: 10px;
+  padding: 5px;
+  color: #111111;
+}
+
+.item-2 {
+  height: 20px;
+  padding: 10px;
+  color: #222222;
+}
+
+.item-3 {
+  height: 30px;
+  padding: 15px;
+  color: #333333;
+}
+
+.item-4 {
+  height: 40px;
+  padding: 20px;
+  color: #444444;
+}
+
+.item-1 {
+  margin: 10px;
+  color: #111111;
+}
+
+.item-2 {
+  margin: 20px;
+  color: #222222;
+}
+
+.item-3 {
+  margin: 30px;
+  color: #333333;
+}
+
+.item-4 {
+  margin: 40px;
+  color: #444444;
+}
+
+.item-5 {
+  margin: 50px;
+  color: #555555;
+}
+
+.item-1 {
+  background-color: #111;
+  margin: 5px;
+}
+
+.item-2 {
+  background-color: #222;
+  margin: 5px;
+}
+
+.item-3 {
+  background-color: #333;
+  margin: 5px;
+}
+
+.liste {
+  color: green;
+  height: 15px;
+  border: 15px solid;
+}
+
+.kutu, .kutu1 {
+  border: 5px solid black;
+  padding: 5px;
+  color: blueviolet;
+}
+
+.kutu1 {
+  border-color: antiquewhite;
+}
+/*# sourceMappingURL=style.css.map */

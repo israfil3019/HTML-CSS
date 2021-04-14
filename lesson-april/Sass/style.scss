@@ -10,12 +10,12 @@ body{
 }
 
 p { 
-    @if size == 10 {
+    @if $size == 10 {
         background-color: bisque;
         padding: 10px;
         margin: 15px;
     }
-    @else if size > 10{
+    @else if $size > 20px{
         background-color: aqua;
         padding: 20px;
     }
@@ -29,7 +29,7 @@ p {
 $i : 10;
 @while $i > 0 {
     .border-#{i} { 
-        border: 5px * i;
+        border: 5px * $i;
     }
     $i: $i - 2;
 }
@@ -50,16 +50,36 @@ $array: 1, 2, 3, 4, 5;
     }
 }
 
-$blue: blue;
-$bisque: bisque;
-$red: red;
+$blue: #111;
+$bisque: #222;
+$red: #333;
 
 $array: $blue, $bisque, $red;
 
-@for $i from 1 through lenght($array) {
+@for $i from 1 through 3 {
     .item-#{$i} {
         background-color: nth($array, $i);
         margin: 5px;
     }
 }
 
+@mixin mybox($color, $height) {
+    color: green;
+    height: 15px;
+    border: 15px solid;    
+}
+
+.liste {
+    @include mybox($color, $height:10px)
+}
+
+.kutu { 
+    border: 5px solid black;
+    padding: 5px;
+    color: blueviolet;
+}
+
+.kutu1 {
+    @extend .kutu;
+    border-color: antiquewhite;
+}
