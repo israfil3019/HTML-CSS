@@ -8,3 +8,58 @@ body{
     color:$color;
     size: $size;
 }
+
+p { 
+    @if size == 10 {
+        background-color: bisque;
+        padding: 10px;
+        margin: 15px;
+    }
+    @else if size > 10{
+        background-color: aqua;
+        padding: 20px;
+    }
+    @else {
+        background-color: aliceblue;
+        padding: 5px;
+    }
+
+}
+
+$i : 10;
+@while $i > 0 {
+    .border-#{i} { 
+        border: 5px * i;
+    }
+    $i: $i - 2;
+}
+
+@for $i from 1 to 5 {
+    .item-#{$i} {
+        height:  10px * $i;
+        padding: 5px * $i;
+        color: #111 * $i;
+    }
+}
+
+$array: 1, 2, 3, 4, 5;
+@each $i in $array {
+    .item-#{$i} {
+        margin: $i * 10px;
+        color: #111 * $i;
+    }
+}
+
+$blue: blue;
+$bisque: bisque;
+$red: red;
+
+$array: $blue, $bisque, $red;
+
+@for $i from 1 through lenght($array) {
+    .item-#{$i} {
+        background-color: nth($array, $i);
+        margin: 5px;
+    }
+}
+
