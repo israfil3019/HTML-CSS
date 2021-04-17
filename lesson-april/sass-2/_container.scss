@@ -1,8 +1,9 @@
+@import "variables";
 .container {
     width: 400px;
     background-color: white;
     border-radius: 3px;
-    padding: $size;
+    padding: 30px;
     margin-bottom: $size;
 
     .login-header {
