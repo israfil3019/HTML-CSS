@@ -1,8 +1,16 @@
 .navbar__logo, .navbar__menu, .navbar__menu--links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   -webkit-box-align: center;
   -ms-flex-align: center;
+}
+
+.navbar__logo, .navbar__menu, .navbar__menu--links, .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.navbar__menu--links:hover, .navbar__menu #button:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar__logo, .navbar__menu, .navbar__menu--links {
@@ -74,8 +82,6 @@
 
 .navbar__menu--links:hover {
   color: #00CC66;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .navbar__menu #button {
@@ -90,8 +96,6 @@
 
 .navbar__menu #button:hover {
   background: #FB4B4E;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .navbar * {
