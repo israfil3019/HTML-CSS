@@ -29,25 +29,21 @@
     &__bars {
         opacity: 0;
     }
-    @media screen and (max-width: 768px) {
-        &__bars {
+    @include tablet{
         color: #222121;
         opacity: 1;
         position: absolute;
         top: 22px;
         right: 20px;
         font-size: 2rem;
-        }
     }
     &__menu {
         list-style: none;
         text-align: center;
         margin-right: 24px;
     }
-    @media screen and (max-width: 768px) {
-        &__menu {
+    @include tablet {
         display: none;
-        }
     }
     &__menu--links {
         color: #222121;
